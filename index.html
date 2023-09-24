@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio Tailwind</title>
-  <link rel="stylesheet" href="./public/style.css" />
+  <link rel="stylesheet" href="public/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap"
@@ -15,7 +15,7 @@
 <body>
   <!-- Header Start -->
   <header class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent">
-    <div class="container">
+    <div class="container w-full">
       <div class="relative flex items-center justify-between">
         <!-- logo -->
         <div class="px-4">
@@ -76,7 +76,7 @@
 
   <!-- Start Hero Section -->
   <section id="home" class="pt-36 dark:bg-slate-900">
-    <div class="container">
+    <div class="container mx-auto">
       <div class="flex flex-wrap">
         <div class="w-full self-auto px-4 lg:mt-28 lg:w-1/2">
           <h1 class="text-base font-semibold text-primary md:text-lg lg:text-xl">
@@ -98,13 +98,14 @@
         <!-- foto -->
         <div class="w-full self-end px-4 lg:w-1/2 lg:p-0">
           <div class="relative mt-10 object-cover lg:right-0 lg:mt-0">
-            <img src="public/img/prof-haji.png" alt="Abi Zakariyya" class="relative z-10 mx-auto lg:max-w-full" />
+            <img src="public/img/prof-haji.png" width="300px" alt="Abi Zakariyya"
+              class="relative z-10 mx-auto lg:max-w-full" />
             <span
-              class="absolute bottom-0 left-1/2 mt-3 -translate-x-1/2 transition duration-300 ease-in-out md:scale-150">
-              <svg width="450px" height="450px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              class="absolute bottom-0 left-1/2 mt-3 -translate-x-1/2  md:scale-125 lg:scale-[1.7] w-full sm:w-2/3 ">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#D0BFFF"
                   d="M50.4,-38.8C61.9,-25.8,65.4,-5,62.1,16.2C58.9,37.3,48.8,59,32.9,65.5C17.1,72,-4.7,63.5,-23.4,52.9C-42,42.2,-57.6,29.5,-62.4,13C-67.2,-3.5,-61.2,-23.8,-49,-36.9C-36.8,-50.1,-18.4,-56.3,0.5,-56.7C19.5,-57.1,38.9,-51.9,50.4,-38.8Z"
-                  transform="translate(100 100) scale(0.9)" />
+                  transform="translate(100 100) scale(1.0)" />
               </svg>
             </span>
           </div>
